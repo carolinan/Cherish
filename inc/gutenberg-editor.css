@@ -1,0 +1,57 @@
+
+a {
+	text-decoration: underline;
+}
+
+a,
+a:visited {
+	color: #000;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #3670A9;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+a img {
+	border: 0;
+}
+
+/* Matches entry-title in style.css. */
+.editor-post-title__block .editor-post-title__input {
+	font-family: 'Lily Script One', 'Oleo Script Swash Caps', 'Pacifico', 'Lobster', 'Norican', 'Merriweather', 'Poppins', 'Lora', 'Karla', 'Roboto', serif;
+	font-size: 4em;
+	letter-spacing: 3px; 
+}
+
+.wp-block-file a.wp-block-file__button,
+.wp-block-file a.wp-block-file__button:visited,
+.wp-block-button__link {
+	text-decoration: underline;
+}
+
+.wp-block-file a.wp-block-file__button:hover,
+.wp-block-file a.wp-block-file__button:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+	text-decoration: none;
+}
+
+/*increase contrast*/
+.wp-block-latest-comments__comment-date,
+.wp-block-video figcaption,
+.wp-block-quote cite,
+.wp-block-audio figcaption {
+	color: #333;
+}

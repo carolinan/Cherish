@@ -1,0 +1,130 @@
+
+/*bbPress*/
+#bbpress-forums {
+	width: 100%; 
+	margin: 0 auto;
+}
+
+#bbpress-forums  fieldset.bbp-form legend {
+	margin-top: 4px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-family: 'Lily Script One', serif;
+	font-size: 2.5em;
+	padding: 0;
+	width: 100%;
+}
+
+#bbpress-forums #bbp-user-wrapper {
+	width: 70%; 
+	margin: 0 auto; 
+	float: none; 
+	clear: both;
+}
+
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current {
+	background: #fff;
+	opacity: 1;
+}
+
+#bbpress-forums a,
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation li a,
+#bbpress-forums a.bbp-reply-permalink,
+#bbpress-forums span.bbp-admin-links a,
+#bbpress-forums a .bbp-topic-reply-link {
+	color: #000; 
+	text-decoration: underline;
+}
+
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation {
+	margin-bottom: 1.5em;
+}
+
+#bbpress-forums div.bbp-reply-content code {
+	padding: 8px;
+}
+
+#bbpress-forums .forum-titles {
+	line-height: 22px;
+}
+
+#bbpress-forums fieldset.bbp-form {
+	border: none; 
+	margin: 0; 
+	padding: 0;
+}
+
+#bbpress-forums fieldset.bbp-form fieldset legend {
+	font-size: 1.8em;
+}
+
+.bbp-search #bbpress-forums,
+.reply-edit #bbpress-forums,
+.single-topic #bbpress-forums, 
+.topic-tag-edit #bbpress-forums, 
+.topic-tag #bbpress-forums {
+	width: 70%; 
+	clear: both;
+}
+
+.bbpress .page-link {
+	width: 70%; 
+	margin: 0 auto; 
+	padding-top: 110px; 
+	float: none; 
+	clear: both;
+}
+
+.topic-tag-edit #bbpress-forums fieldset.bbp-form {
+	margin-bottom: 20px;
+}
+
+div.bbp-breadcrumb {
+	display: block;
+	line-height: 2.5em;
+	margin-right: 0.7em;
+	margin-left:0.7em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#bbpress-forums .status-closed a,
+#bbpress-forums .status-closed {
+	color: #000;
+}
+
+#bbpress-forums p.bbp-topic-meta img.avatar,
+#bbpress-forums ul.bbp-reply-revision-log img.avatar, 
+#bbpress-forums ul.bbp-topic-revision-log img.avatar, 
+#bbpress-forums div.bbp-template-notice img.avatar, 
+#bbpress-forums .widget_display_topics img.avatar, 
+#bbpress-forums .widget_display_replies img.avatar
+.bbp-author-avatar {
+	display: none;
+}
+
+.bbp-pagination {
+	font-weight: bold;
+}
+
+.bbp-breadcrumb-sep{}
+
+.subscription-toggle {
+	padding: 10px; 
+	background: #fff; 
+	float: right;
+}
+
+ul .type-forum {
+	width: 100%;
+}
+
+/*.li.bbp-forum-info, li.bbp-topic-title{width:80%;}*/
+div.bbp-submit-wrapper {
+	float: left;
+}
+
+.bbp-body {
+	background: #fff;
+}
